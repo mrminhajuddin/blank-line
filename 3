@@ -1,0 +1,10 @@
+text = """Hello
+
+World
+
+Python"""
+
+lines = text.splitlines()
+non_blank = [line for line in lines if line.strip() != ""]
+
+print("\n".join(non_blank))
